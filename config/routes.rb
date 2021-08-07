@@ -27,5 +27,9 @@ Rails.application.routes.draw do
     patch 'employees/:employee_id/vacations/:vacation_id', to: 'vacations#update'
     delete 'employees/:employee_id/vacations/:vacation_id', to: 'vacations#destroy'
 
+    # Users registration and login
+    post 'auth/register', to: 'auth#register'
+    post 'auth/login', to: 'auth#login'
+
   end
 end

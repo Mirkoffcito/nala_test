@@ -36,3 +36,7 @@ gem "pager_api", "~> 0.3.2"
 gem "pagy", "~> 4.10"
 
 gem "has_scope", "~> 0.8.0"
+
+gem "bcrypt", "~> 3.1"
+
+gem "jwt", "~> 2.2"

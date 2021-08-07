@@ -67,6 +67,7 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bcrypt (3.1.16)
     bootsnap (1.7.7)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -226,11 +227,13 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers (~> 0.10.12)
+  bcrypt (~> 3.1)
   bootsnap (>= 1.4.4)
   byebug
   dotenv-rails
   google_drive (~> 3.0)
   has_scope (~> 0.8.0)
+  jwt (~> 2.2)
   pager_api (~> 0.3.2)
   pagy (~> 4.10)
   pg (~> 1.1)
