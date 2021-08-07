@@ -1,4 +1,7 @@
 module StateUpdater
+  # Este proceso, si bien ralentiza bastante el request,
+  # es necesario para actualizar el estado(currently, pending) de las vacaciones
+  # no finalizadas o por empezar, dependiendo del día actual
   def state_updater
     vacations = Vacation.all_except('finished')
     today = DateTime.now.to_date

@@ -30,3 +30,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "google_drive", "~> 3.0"
 
 gem "active_model_serializers", "~> 0.10.12"
+
+gem "pager_api", "~> 0.3.2"
+
+gem "pagy", "~> 4.10"
+
+gem "has_scope", "~> 0.8.0"
