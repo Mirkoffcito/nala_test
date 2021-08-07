@@ -1,6 +1,5 @@
 module Api
   class EmployeesController < ApplicationController
-    before_action :error_handler, only: [:show, :update, :destroy, :index]
     
     #has_scope :on_vacation
     #has_scope :working

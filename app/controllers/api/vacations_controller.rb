@@ -1,7 +1,6 @@
 module Api
   class VacationsController < ApplicationController
-    before_action :state_updater, only: [:index, :show]
-    before_action :error_handler, only: [:show, :update, :destroy, :index]
+    before_action :state_updater, only: [:index, :show, :update]
 
     # /api/vacations?by_state=pending
     has_scope :by_state
