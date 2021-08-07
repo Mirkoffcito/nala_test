@@ -5,10 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore secret google key
-.client_secret
-.client_secret.json
-/.client_secret.json
-/.client_secret
+/client_secret.json
 
 # ignore enviromental variables
 .env
