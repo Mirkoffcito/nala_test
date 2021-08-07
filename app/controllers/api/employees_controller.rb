@@ -1,9 +1,12 @@
 module Api
   class EmployeesController < ApplicationController
     before_action :error_handler, only: [:show, :update, :destroy, :index]
+    
+    #has_scope :on_vacation
+    #has_scope :working
 
     def index
-      @employees = Employee.all
+      @employees = apply_scopes(Employee.all)
       paginate @employees, per_page: 10, each_serializer: EmployeesSerializer
     end
 

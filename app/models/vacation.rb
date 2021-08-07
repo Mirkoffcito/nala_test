@@ -31,7 +31,6 @@ class Vacation < ApplicationRecord
     name = self.employee.first_name + " " + self.employee.last_name
     new_row = [name, self.started_at.to_s, self.finished_at.to_s]
     worksheet.insert_rows(worksheet.num_rows+1, [new_row])
-    byebug
     worksheet.save
   end
 end
