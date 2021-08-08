@@ -10,8 +10,6 @@ module Api
     has_scope :by_end_date, using: %i[from to], type: :hash
 
     def index
-      #@vacations = apply_scopes(Vacation.all.includes(:employee))
-      #paginate @vacations, per_page: 10, each_serializer: VacationsSerializer
       paginate vacations, per_page: 10, each_serializer: VacationsSerializer
     end
 
