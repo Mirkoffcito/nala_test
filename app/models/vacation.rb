@@ -11,19 +11,7 @@ class Vacation < ApplicationRecord
 
   after_create :create_new_row
 
-  # Aún en proceso de desarrollo, al eliminar un registro vía API
-  # debería eliminarse el registro que le corresponde en la GSheet
-  # ´pero el proceso es muy lento y debe ser re-pensado
-  # after_destroy :deletes_row
-
   private 
-
-  def deletes_row
-    spreadsheet = Fetcher.session.spreadsheet_by_title("Vacaciones")
-    worksheet = spreadsheet.worksheets.first
-    worksheet.delete_rows(self.id, 1)
-    worksheet.save
-  end
 
   def create_new_row
     spreadsheet = Fetcher.session.spreadsheet_by_title("Vacaciones")
