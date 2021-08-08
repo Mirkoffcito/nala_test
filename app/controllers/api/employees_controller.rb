@@ -1,8 +1,5 @@
 module Api
   class EmployeesController < ApplicationController
-    
-    #has_scope :on_vacation
-    #has_scope :working
 
     def index
       @employees = apply_scopes(Employee.all)
