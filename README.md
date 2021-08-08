@@ -18,6 +18,9 @@ El comando ```Fetcher.fetch``` poblará la base de datos con toda la informació
 ## Endpoints
 
 ### Autenticación
+
+El desarrollo de la autenticación fue muy básico, a fines de cumplir con lo establecido en la consigna ya que me pareció "overkill" implementar autenticación con una gema cómo devise en éste caso especifico. Cuenta con un Registro y un Login.
+
 #### Todos los endpoints, exceptuando los de registro y login, requieren de autenticación. La autenticación se realiza enviando el parametro 'Authorization' con el token de acceso vía headers. Si el usuario no está autenticado, recibirá un mensaje de error y un código de error 401.
 * **REGISTRO DE USUARIO**: https://test-nala.herokuapp.com/api/auth/register
   - Recibe como parametros *email*, *password* y *password_confirmation*
