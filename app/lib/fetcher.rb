@@ -18,6 +18,8 @@ class Fetcher
 
   # Method used only once to fetch from google sheet to database
   def self.fetch
+    Vacation.skip_callback :create, :after, :create_new_row
+
     spreadsheet = session.spreadsheet_by_title("Vacaciones")
     worksheet = spreadsheet.worksheets.first
     rows = worksheet.rows.drop(1) # Drops the first row (name of columns)
