@@ -7,6 +7,9 @@
 # Ignore secret google key
 **/client_secret.json
 
+# Ignore coverage folder
+coverage
+
 # ignore enviromental variables
 .env
 
