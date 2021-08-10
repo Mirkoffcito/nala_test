@@ -18,6 +18,9 @@ El comando ```Fetcher.fetch``` poblará la base de datos con toda la informació
 ## Endpoints
 
 ### Autenticación
+
+El desarrollo de la autenticación fue muy básico, a fines de cumplir con lo establecido en la consigna ya que me pareció "overkill" implementar autenticación con una gema cómo devise en éste caso especifico. Cuenta con un Registro y un Login.
+
 #### Todos los endpoints, exceptuando los de registro y login, requieren de autenticación. La autenticación se realiza enviando el parametro 'Authorization' con el token de acceso vía headers. Si el usuario no está autenticado, recibirá un mensaje de error y un código de error 401.
 * **REGISTRO DE USUARIO**: https://test-nala.herokuapp.com/api/auth/register
   - Recibe como parametros *email*, *password* y *password_confirmation*
@@ -138,6 +141,14 @@ El comando ```Fetcher.fetch``` poblará la base de datos con toda la informació
 ### ?by_finish_date
 
 * **/api/vacations?by_finish_date[from]=AAAA-MM-DD&by_start_date[to]=AAAA-MM-DD**: Devuelve todos los registros de vacaciones que FINALIZAN entre dos fechas dadas.
+
+## PAGINACIÓN
+
+Para la paginación utilicé la gema 'pager_api' en combinación con la gema 'pagy'. Son muy sencillas de utilizar y nos brindan toda la información que podemos necesitar de una paginación.
+
+![paginación](https://user-images.githubusercontent.com/81385234/128636716-68666912-98ef-44cd-b6e9-f3afadaa9062.jpg)
+
+
 
 
 
