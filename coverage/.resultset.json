@@ -1,0 +1,467 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/models/employee.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/api/auth_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/concerns/state_updater.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/concerns/vacation_create_handler.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/concerns/error_handler.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          0,
+          2,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/auth/authorize_api_request.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/lib/json_web_token.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/api/employees_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/serializers/employees_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/models/vacation.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/controllers/api/vacations_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/lib/fetcher.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/serializers/employee_serializer.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/serializers/vacations_serializer.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "C:/Users/Gui2/Documents/Ruby Projects/Challenge NALA/nala-api/app/serializers/vacation_serializer.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1628633858
+  }
+}
