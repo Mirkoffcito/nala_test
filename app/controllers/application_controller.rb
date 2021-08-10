@@ -4,6 +4,6 @@ class ApplicationController < ActionController::API
     include ErrorHandler
     include AuthorizeApiRequest
 
-    before_action :error_handler, only: [:show, :update, :destroy, :index]
     before_action :authorize_request
+    before_action :error_handler, only: [:show, :update, :destroy, :index]
 end
