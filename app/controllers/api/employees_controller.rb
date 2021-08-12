@@ -2,7 +2,7 @@ module Api
   class EmployeesController < ApplicationController
 
     def index
-      @employees = apply_scopes(Employee.all)
+      @employees = Employee.all
       paginate @employees, per_page: 10, each_serializer: EmployeesSerializer
     end
 
